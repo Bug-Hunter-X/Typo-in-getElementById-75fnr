@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    // Incorrect way to select the element
+    const myDiv = document.getElementbyId("myDiv"); //Typo: getElementbyId
+    myDiv.innerHTML = "Hello, world!";
+  </script>
+</body>
+</html>
